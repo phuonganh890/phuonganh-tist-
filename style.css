@@ -1,0 +1,64 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 100%, rgba(255,255,255,1) 100%);
+}
+
+.body {
+    text-align: center;
+}
+
+.categories {
+    padding: 10px;
+    text-align: center;
+}
+.list-categories {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
+
+.list-categories li {
+    border-style: solid;
+    border-color: white;
+    width: 500px;
+    height: 5vb;
+    margin-bottom: 20px;
+    padding: 10px;
+    /* Center content within each li (without affecting `display`) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-categories li:hover {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 54%, rgba(255,255,255,1) 100%);
+    opacity: 1;
+    transition: 2s ease-in-out;
+}
+
+.list-categories a {
+    color: white;
+}
+.introduce {
+    width: auto;
+    padding: 0;
+}
+
+h3 {
+    padding: 20px;
+    color: pink;
+    font-size: 50px;
+}
+
+i {
+    padding: 6px;
+}
+
+.body-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
